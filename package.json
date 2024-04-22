@@ -1,0 +1,27 @@
+{
+  "name": "iptables-webgui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-ca/iptables-webgui.git"
+  },
+  "author": "r-ca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r-ca/iptables-webgui/issues"
+  },
+  "homepage": "https://github.com/r-ca/iptables-webgui#readme",
+  "dependencies": {
+    "fastify": "^4.26.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
