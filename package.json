@@ -2,9 +2,10 @@
   "name": "iptables-webgui",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index",
+    "start:dev": "ts-node-dev src/index"
   },
   "repository": {
     "type": "git",
